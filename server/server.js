@@ -3,14 +3,14 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const routes = require('./Routes/Routes')
-const path = require('path')
+// const path = require('path')
 
 // static files
-app.use(express.static(path.join(__dirname, './client/build')));
+// app.use(express.static(path.join(__dirname, './client/build')));
 
-app.get("*", function ( req, res) {
-    res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+// app.get("*", function ( req, res) {
+//     res.sendFile(path.join(__dirname, "./client/build/index.html"));
+// });
 
 // middleware
 const app = express();
