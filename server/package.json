@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "server.js"
-    "build": "npm build"
+    "start": " nodemon server.js",
+    "build": "run build"
   },
   "author": "shilpa",
   "license": "ISC",
